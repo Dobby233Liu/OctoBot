@@ -15,24 +15,24 @@ client.Dispatcher.on(Events.GATEWAY_READY, 0=> {
 		if (e.message.content == 'oh.Bing') {
 		e.message.channel.sendMessage('Bong');
 		if (e.message.content == 'oh.dogs'){
-		e.message.channel.sendMessage('https://static.wamiz.fr/images/animaux/chiens/medium/carlin-980.jpg');
+		e.message.channel.send('https://static.wamiz.fr/images/animaux/chiens/medium/carlin-980.jpg');
 		if (e.message.content == 'oh.way'){
-		e.message.channel.sendMessage('No way.');
+		e.message.channel.send('No way.');
 		if (e.message.content == 'oh.crisis'){
-		e.message.channel.sendMessage('no crisis');
+		e.message.channel.send('no crisis');
 		if (e.message.content == 'octo.randomsong'){
-		e.message.channel.sendMessage('Here is your random song. https://www.youtube.com/watch?v=i6Mg4WSK_v8');
+		e.message.channel.send('Here is your random song. https://www.youtube.com/watch?v=i6Mg4WSK_v8');
 		if (e.message.content == 'octo.mystery'){
-		e.message.channel.sendMessage('no mystery');
+		e.message.channel.send('no mystery');
 		if (e.message.content == 'octo.no'){
-		e.message.channel.sendMessage('oh');
+		e.message.channel.send('oh');
 		if (e.message.content == 'octo.about'){
-		e.message.channel.sendMessage('You wont know it and you wont see it');
+		e.message.channel.send('You wont know it and you wont see it');
 		if (e.message.content == 'octo.oh'){
-		e.message.channel.sendMessage('Oh !');
+		e.message.channel.send('Oh !');
 		if (e.message.content == 'octo.hello'){
-		e.message.channel.sendMessage('Hello');
+		e.message.channel.send('Hello');
 		if (e.message.content == 'octo.noprog'){
-		e.message.channel.sendMessage('I wasnt been programmed for that.');
+		e.message.channel.('I wasnt been programmed for that.');
    
 		
