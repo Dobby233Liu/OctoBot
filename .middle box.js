@@ -34,5 +34,7 @@ client.Dispatcher.on(Events.GATEWAY_READY, 0=> {
 		e.message.channel.send('Hello');
 		if (e.message.content == 'octo.noprog'){
 		e.message.channel.('I wasnt been programmed for that.');
-    	 (e.message.content == 'octo.hOi'){
+    			if (e.message.content == 'octo.no'){
+		e.message.channel.send('oh');
+			if (e.message.content == 'octo.hOi'){
 		e.message.channel.send('yA!!! yOu hs tEmmmmmm! ');
