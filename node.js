@@ -29,7 +29,7 @@ client.Dispatcher.on(Events.GATEWAY_READY, 0=> {
 		if (e.message.content == 'octo.about'){
 		e.message.channel.send('You wont know it and you wont see it');
 		if (e.message.content == 'octo.oh'){
-		e.message.channel.send('Oh !');
+		e.message.channel.send('Oh!');
 		if (e.message.content == 'octo.hello'){
 		e.message.channel.send('Hello');
 		if (e.message.content == 'octo.noprog'){
@@ -38,3 +38,5 @@ client.Dispatcher.on(Events.GATEWAY_READY, 0=> {
 		e.message.channel.send('oh');
 			if (e.message.content == 'octo.hOi'){
 		e.message.channel.send('yA!!! yOu hs tEmmmmmm! ');
+.               if (e.message.content == 'octo.Chinese'){
+		e.message.channel.send('i'm not learned Chinese. ');
